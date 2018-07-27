@@ -32,7 +32,7 @@ export default {
     Hamburger
   },
   computed: {
-    ...mapGetters([
+    ...mapGetters([ // 辅助函数
       'sidebar',
       'avatar'
     ])

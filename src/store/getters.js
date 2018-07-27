@@ -1,3 +1,4 @@
+// 对外封装
 const getters = {
   sidebar: state => state.app.sidebar,
   device: state => state.app.device,
